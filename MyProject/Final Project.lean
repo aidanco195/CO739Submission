@@ -299,7 +299,7 @@ theorem converges_weakly_of_liminf (measureSeq : ℕ → Measure X) (μ : Measur
   exact zero_le (measureSeq x S)
 
 /-
-We finally prove that if (μ_n) converges to μ using limsups, then (μ_n) converges weakly to μ.
+Finally, we prove that if (μ_n) converges to μ using limsups, then (μ_n) converges weakly to μ.
 This is just a simple combination of our previous two results. Recall that they were:
 If (μ_n) converges to μ using liminfs, then (μ_n) converges weakly to μ.
 (μ_n) converges to μ using liminfs if and only if (μ_n) converges to μ using limsups.
